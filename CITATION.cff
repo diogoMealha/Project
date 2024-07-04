@@ -1,0 +1,38 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: ODESolver
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Diogo Alves
+    family-names: Mealha
+    email: diogo@mealha.com
+    affiliation: University of Aveiro
+repository-code: 'https://github.com/diogoMealha/Project'
+abstract: >-
+  This study explored the use of neural networks to solve
+  ordinary differential equations, leveraging the Universal
+  Approximation Theorem. Using a trial solution method,
+  neural networks were employed to approximate solutions to
+  differential equations by directly incorporating the
+  equations into the cost function. This approach bypasses
+  the need for training data, as the network learns
+  solutions that naturally satisfy the equation to be
+  solved. Finally, this methodology was applied to ordinary
+  differential equations in nonlinear optics, such as those
+  describing soliton-type solutions of the nonlinear
+  Schrödinger equation and the complex Ginzburg-Landau
+  equation, where different models were tested and compared.
+  The results highlight the potential of neural networks to
+  accurately solve nonlinear boundary value problems.
+keywords:
+  - machine learing
+  - neural networks
+  - ordinary differential equations
+  - optical systems
+license: MIT
+version: '1.0'
